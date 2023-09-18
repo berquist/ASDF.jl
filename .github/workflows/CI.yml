@@ -50,7 +50,7 @@ jobs:
       # Installing ASDF manually is currently required
       - run: |
           python -m pip install asdf
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: julia-actions/setup-julia@v1
         with:
           version: '1'
